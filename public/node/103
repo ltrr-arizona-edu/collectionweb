@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7 sticky-footer external-links ua-brand-icons overlay-menu-scroll-hide" lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7 sticky-footer external-links ua-brand-icons overlay-menu-scroll-hide" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8 sticky-footer external-links ua-brand-icons overlay-menu-scroll-hide" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9 sticky-footer external-links ua-brand-icons overlay-menu-scroll-hide" lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 9]><html class="lte-ie9 sticky-footer external-links ua-brand-icons overlay-menu-scroll-hide" lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html class="sticky-footer external-links ua-brand-icons overlay-menu-scroll-hide" lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://collection.ltrr.arizona.edu/profiles/ua_quickstart/themes/custom/ua_zen/favicon.ico" type="image/vnd.microsoft.icon" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "EducationalOrganization",
+            "additionalType": "CollegeOrUniversity",
+            "@id": "https://collection.ltrr.arizona.edu/person/gabriella-vanover",
+            "name": "The University of Arizona",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Tucson",
+                "addressRegion": "AZ",
+                "postalCode": "85721",
+                "addressCountry": "USA"
+            },
+            "url": "https://collection.ltrr.arizona.edu/",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://collection.ltrr.arizona.edu/sites/default/files/images/people/IMG_5549.jpg"
+            }
+        }
+    ]
+}</script>
+<meta name="generator" content="UA Quickstart 7 (https://quickstart.arizona.edu)" />
+<link rel="image_src" href="https://collection.ltrr.arizona.edu/sites/default/files/images/people/IMG_5549.jpg" />
+<meta name="rights" content="© 2025 The Arizona Board of Regents on behalf of The University of Arizona." />
+<link rel="canonical" href="https://collection.ltrr.arizona.edu/person/gabriella-vanover" />
+<link rel="shortlink" href="https://collection.ltrr.arizona.edu/node/103" />
+<meta property="og:site_name" content="LTRR Collection" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Gabriella Vanover" />
+<meta property="og:url" content="https://collection.ltrr.arizona.edu/person/gabriella-vanover" />
+<meta property="og:updated_time" content="2022-09-05T09:23:42-07:00" />
+<meta property="og:image" content="https://collection.ltrr.arizona.edu/sites/default/files/images/people/IMG_5549.jpg" />
+<meta property="og:image:url" content="https://collection.ltrr.arizona.edu/sites/default/files/images/people/IMG_5549.jpg" />
+<meta property="og:image:secure_url" content="https://collection.ltrr.arizona.edu/sites/default/files/images/people/IMG_5549.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://collection.ltrr.arizona.edu/person/gabriella-vanover" />
+<meta name="twitter:title" content="Gabriella Vanover" />
+<meta name="twitter:image" content="https://collection.ltrr.arizona.edu/sites/default/files/images/people/IMG_5549.jpg" />
+<meta property="article:published_time" content="2022-09-05T04:28:11-07:00" />
+<meta property="article:modified_time" content="2022-09-05T09:23:42-07:00" />
+  <title>Gabriella Vanover | LTRR Collection</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
+  
+  <link type="text/css" rel="stylesheet" href="https://cdn.uadigital.arizona.edu/lib/ua-brand-icons/v1.1.0/ua-brand-icons.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://cdn.uadigital.arizona.edu/lib/ua-bootstrap/v1.0.0-beta.26/ua-bootstrap.min.css" media="all" />
+<style>
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/editor/css/components/align.module.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/editor/css/components/resize.module.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/editor/css/components/underline.module.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/editor/css/components/hidden.module.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/editor/css/filter/filter.caption.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/editor/modules/editor_ckeditor/css/plugins/drupalimagecaption/editor_ckeditor.drupalimagecaption.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/modules/system/system.base.css?snuomo");
+</style>
+<style>
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/date/date_repeat_field/date_repeat_field.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/fences/field.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/modules/node/node.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/picture/picture_wysiwyg.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/modules/search/search.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/custom/uaqs_event/css/uaqs_event.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/custom/uaqs_fields/uaqs_fields_media/css/uaqs_fields_media.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/custom/uaqs_news/css/uaqs_news.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/custom/uaqs_person/css/uaqs_person.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/modules/user/user.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/extlink/css/extlink.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/views/css/views.css?snuomo");
+</style>
+<style>
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/ctools/css/ctools.css?snuomo");
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/themes/custom/ua_zen/css/ua_zen_back_to_top.css?snuomo");
+</style>
+<style>
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/themes/custom/ua_zen/css/styles.css?snuomo");
+</style>
+<style>
+@import url("https://collection.ltrr.arizona.edu/profiles/ua_quickstart/themes/custom/ua_zen/css/uaqs_navigation_overlay_menu_scroll.css?snuomo");
+</style>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/profiles/ua_quickstart/modules/contrib/jquery_update/replace/jquery/1.12/jquery.min.js'>\x3C/script>")</script>
+<script>document.createElement( "picture" );</script>
+<script>jQuery.migrateMute=true;jQuery.migrateTrace=false;</script>
+<script src="//code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+<script>window.jQuery && window.jQuery.migrateWarnings || document.write("<script src='/profiles/ua_quickstart/modules/contrib/jquery_update/replace/jquery-migrate/1.4.1/jquery-migrate.min.js'>\x3C/script>")</script>
+<script src="https://collection.ltrr.arizona.edu/misc/jquery-extend-3.4.0.js?v=1.12.4"></script>
+<script src="https://collection.ltrr.arizona.edu/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.12.4"></script>
+<script src="https://collection.ltrr.arizona.edu/misc/jquery.once.js?v=1.2"></script>
+<script src="https://collection.ltrr.arizona.edu/misc/drupal.js?snuomo"></script>
+<script src="https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/jquery_update/js/jquery_browser.js?v=0.0.1"></script>
+<script src="https://collection.ltrr.arizona.edu/misc/form-single-submit.js?v=7.102"></script>
+<script src="https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/entityreference/js/entityreference.js?snuomo"></script>
+<script src="https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/field_group/field_group.js?snuomo"></script>
+<script src="https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/extlink/js/extlink.js?snuomo"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"ua_zen","theme_token":"LVDjz0MKLG4cNh9jKXoqxPfHO2zzh3itM-cbVvm5CPQ","js":{"profiles\/ua_quickstart\/modules\/contrib\/picture\/picturefill\/picturefill.min.js":1,"profiles\/ua_quickstart\/modules\/contrib\/picture\/picture.min.js":1,"profiles\/ua_quickstart\/themes\/custom\/ua_zen\/js\/uaqs_navigation_overlay_menu_scroll.js":1,"profiles\/ua_quickstart\/themes\/custom\/ua_zen\/js\/ua_zen_back_to_top.js":1,"https:\/\/cdn.uadigital.arizona.edu\/lib\/ua-bootstrap\/v1.0.0-beta.26\/ua-bootstrap.min.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.12.4\/jquery.min.js":1,"0":1,"1":1,"2":1,"\/\/code.jquery.com\/jquery-migrate-1.4.1.min.js":1,"3":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/ua_quickstart\/modules\/contrib\/jquery_update\/js\/jquery_browser.js":1,"misc\/form-single-submit.js":1,"profiles\/ua_quickstart\/modules\/contrib\/entityreference\/js\/entityreference.js":1,"profiles\/ua_quickstart\/modules\/contrib\/field_group\/field_group.js":1,"profiles\/ua_quickstart\/modules\/contrib\/extlink\/js\/extlink.js":1},"css":{"https:\/\/cdn.uadigital.arizona.edu\/lib\/ua-brand-icons\/v1.1.0\/ua-brand-icons.min.css":1,"https:\/\/cdn.uadigital.arizona.edu\/lib\/ua-bootstrap\/v1.0.0-beta.26\/ua-bootstrap.min.css":1,"profiles\/ua_quickstart\/modules\/contrib\/editor\/css\/components\/align.module.css":1,"profiles\/ua_quickstart\/modules\/contrib\/editor\/css\/components\/resize.module.css":1,"profiles\/ua_quickstart\/modules\/contrib\/editor\/css\/components\/underline.module.css":1,"profiles\/ua_quickstart\/modules\/contrib\/editor\/css\/components\/hidden.module.css":1,"profiles\/ua_quickstart\/modules\/contrib\/editor\/css\/filter\/filter.caption.css":1,"profiles\/ua_quickstart\/modules\/contrib\/editor\/modules\/editor_ckeditor\/css\/plugins\/drupalimagecaption\/editor_ckeditor.drupalimagecaption.css":1,"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.theme.css":1,"profiles\/ua_quickstart\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"profiles\/ua_quickstart\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"modules\/search\/search.css":1,"profiles\/ua_quickstart\/modules\/custom\/uaqs_event\/css\/uaqs_event.css":1,"profiles\/ua_quickstart\/modules\/custom\/uaqs_fields\/uaqs_fields_media\/css\/uaqs_fields_media.css":1,"profiles\/ua_quickstart\/modules\/custom\/uaqs_news\/css\/uaqs_news.css":1,"profiles\/ua_quickstart\/modules\/custom\/uaqs_person\/css\/uaqs_person.css":1,"modules\/user\/user.css":1,"profiles\/ua_quickstart\/modules\/contrib\/extlink\/css\/extlink.css":1,"profiles\/ua_quickstart\/modules\/contrib\/views\/css\/views.css":1,"profiles\/ua_quickstart\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/ua_quickstart\/themes\/custom\/ua_zen\/css\/ua_zen_back_to_top.css":1,"profiles\/ua_quickstart\/themes\/custom\/ua_zen\/system.menus.css":1,"profiles\/ua_quickstart\/themes\/custom\/ua_zen\/system.messages.css":1,"profiles\/ua_quickstart\/themes\/custom\/ua_zen\/system.theme.css":1,"profiles\/ua_quickstart\/themes\/custom\/ua_zen\/css\/styles.css":1,"profiles\/ua_quickstart\/themes\/custom\/ua_zen\/css\/uaqs_navigation_overlay_menu_scroll.css":1}},"currentPath":"node\/103","currentPathIsAdmin":false,"urlIsAjaxTrusted":{"\/person\/gabriella-vanover":true},"field_group":{"html-element":"full"},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":0,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)","extUseFontAwesome":false}});</script>
+      <!--[if lt IE 9]>
+    <script src="/profiles/ua_quickstart/themes/custom/ua_zen/js/html5-respond.js"></script>
+    <![endif]-->
+  </head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-103 node-type-uaqs-person section-person" >
+      <p id="skip-link">
+      <a href="#main_nav" class="sr-only sr-only-focusable">Jump to navigation</a>
+    </p>
+  
+    
+<header id="header_ua" class="page-row l-arizona-header bg-red bg-cochineal-red">
+  <section class="container l-container">
+    <div class="row">
+                    <div class="col-xs-10 col-sm-6">
+            <a href="https://www.arizona.edu" title="The University of Arizona homepage" class="arizona-logo remove-external-link-icon">
+    <img alt="The University of Arizona Wordmark Line Logo White" src="https://cdn.uadigital.arizona.edu/logos/v1.0.0/ua_wordmark_line_logo_white_rgb.min.svg" class="arizona-line-logo">
+  </a>
+        </div>
+                </div>
+  </section>
+</header>
+
+<header class="header page-row" id="header_site" role="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-lg-4">
+                  <a href="/" title="LTRR Collection | Home" class="header__logo" rel="home" id="logo"><img src="https://collection.ltrr.arizona.edu/sites/default/files/title_0.png" alt="Laboratory of Tree-Ring Research" class='header__logo-image'/></a>              </div>
+      <div class="col-xs-12 col-sm-6 col-lg-8">
+        <div class="row">
+          <div class="col-xs-12">
+                                        <div class="header__region region region-header">
+    <div id="block-search-form" class="block block-search first last odd" role="search">
+
+      
+  <form action="/person/gabriella-vanover" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-item-search-block-form form-type-textfield form-group"><input title="Enter the terms you wish to search for." placeholder="Search Site" class="input-search form-control form-text" onfocus="this.placeholder = &#039;&#039;" onblur="this.placeholder = &#039;Search Site&#039;" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /> <label class="control-label element-invisible" for="edit-search-block-form--2">Search</label>
+</div><div class="form-actions form-wrapper" id="edit-actions"><input class="btn btn-search radius form-submit" type="submit" id="edit-submit" name="op" value="Search" /></div><input type="hidden" name="form_build_id" value="form-Wf4ihVc4QjReO9KyUr7KTFb0eQJj5jGp9Ogg9t4B2AY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+</div>
+  </div>
+                      </div>
+        </div>
+              </div>
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+
+      <div id="nav-container" class="container">
+      <nav id="main_nav" class="navbar navbar-default navbar-static-top" role="navigation" aria-label="main">
+                  <div class="navbar-header overlay-menu-scroll-toggle">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-parent="#main_nav" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="text">MAIN MENU</span>
+                 <span class="hamburger">Open Navigation</span>
+               </button>
+            </div><div id="navbar" class="overlay-menu-scroll" role="menu" aria-expanded="false"><div class="navbar-scroller"><ul class="menu nav navbar-nav"><li class="menu__item is-leaf first leaf"><a href="/" class="menu__link text-uppercase">Home</a></li>
+<li class="menu__item is-leaf leaf"><a href="/people" title="" class="menu__link text-uppercase">Team Members</a></li>
+<li class="menu__item is-collapsed collapsed"><a href="/loans" title="Using the Collection" class="menu__link text-uppercase">Loans</a></li>
+<li class="menu__item is-leaf leaf"><a href="/archiving" title="Archiving Samples" class="menu__link text-uppercase">Archiving</a></li>
+<li class="menu__item is-leaf leaf"><a href="/projects" class="menu__link text-uppercase">Projects</a></li>
+<li class="menu__item is-leaf leaf"><a href="/photos" class="menu__link text-uppercase">Photos</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/endowment" class="menu__link text-uppercase">Donate</a></li>
+</ul><div class="clearfix"></div></div></div>                      </nav> <!-- /#main_nav-->
+    </div> <!-- /.container -->
+  </header>
+
+<div id="main" class="page-row page-row-expanded page-row-padding-bottom page mb-4" role="main">
+            <div class="container">
+        <div class="row">
+            <div class="col-xs-12" aria-label="breadcrumb">
+            <div class="item-list"></div>                        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+        <div id="content" class="col-sm-12">
+        <a id="main-content"></a>
+                                                
+
+
+<div class="node-103 node node-uaqs-person view-mode-full clearfix" about="/person/gabriella-vanover" typeof="sioc:Item foaf:Document">
+
+      <header>
+                  <span property="dc:title" content="Gabriella Vanover" class="rdf-meta element-hidden"></span>
+      
+          </header>
+  
+  <div class="margin-align-bottom"><div class="row"><div class="col-xs-12 col-md-8 pull-right">
+  <h1 class="margin-align-top margin-zero-bottom sans text-blue h2">Gabriella Vanover</h1>
+<div class="h4">
+  <p class="field-uaqs-titles">
+    Student Research Assistant  </p>
+</div></div><div class="col-xs-12 col-md-4"><div class="card margin-align-middle">
+  <img class="img-responsive" typeof="foaf:Image" src="https://collection.ltrr.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/IMG_5549.jpg?itok=WGH6egBE" alt="" /><ul class="list-group list-group-flush"><li class="list-group-item">
+  <div class="field-uaqs-email">
+    <a href="mailto:gabriellavanover@arizona.edu">gabriellavanover@arizona.edu</a>  </div>
+</li></ul></div></div></div></div>
+  
+  
+</div>
+                </div>
+                                </div>
+    </div>
+                </div> <!-- /.main -->
+<!-- back to top button --->
+  <button id="js-ua-zen-back-to-top" role="button" aria-label="Return to the top of this page." class="ua-zen-back-to-top btn btn-primary"><span class="sr-only">Return to the top of this page.</span>
+<i class="ua-brand-up-arrow"></i>
+</button>
+
+<footer id="footer_site" class="page page-row" role="contentinfo">
+    <div class="region region-footer">
+    <div class="container">
+      <div class="row">
+        <div class="page-row-padding-top page-row-padding-bottom"></div>
+        <div class="page-row-padding-top page-row-padding-bottom"></div>
+                  <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 text-center-xs text-left-not-xs">
+            <div class="row bottom-buffer-30">
+              <div class="col-xs-12">
+               <a href="https://ltrr.arizona.edu" title="LTRR Collection | Home" class="remove-external-link-icon"><img src="https://collection.ltrr.arizona.edu/sites/default/files/tree_ring_alt_small.png" alt="Laboratory of Tree-Ring Research" /></a>              </div>
+            </div>
+          </div>
+                        <div class="col-xs-12">
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer_sub" class="region region-footer-sub">
+  	<div class="container">
+        <div class="row">
+    	            </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                        <p class="small"><a href="https://www.arizona.edu/information-security-privacy" target="_blank">University Information Security and Privacy</a></p>            <p class="copyright small">&copy; 2025 The Arizona Board of Regents on behalf of <a href="https://www.arizona.edu" target="_blank">The University of Arizona</a>.</p>            </div>
+        </div>
+  	</div>
+</div>
+</footer>
+
+  <script src="https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/picture/picturefill/picturefill.min.js?v=3.0.1"></script>
+<script src="https://collection.ltrr.arizona.edu/profiles/ua_quickstart/modules/contrib/picture/picture.min.js?v=7.102"></script>
+<script src="https://collection.ltrr.arizona.edu/profiles/ua_quickstart/themes/custom/ua_zen/js/uaqs_navigation_overlay_menu_scroll.js?snuomo"></script>
+<script src="https://collection.ltrr.arizona.edu/profiles/ua_quickstart/themes/custom/ua_zen/js/ua_zen_back_to_top.js?snuomo"></script>
+<script src="https://cdn.uadigital.arizona.edu/lib/ua-bootstrap/v1.0.0-beta.26/ua-bootstrap.min.js"></script>
+</body>
+</html>

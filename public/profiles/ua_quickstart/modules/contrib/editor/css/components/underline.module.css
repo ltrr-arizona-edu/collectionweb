@@ -1,0 +1,11 @@
+/**
+ * @file
+ * Underline classes for text level elements.
+ */
+
+/**
+ * Underline content.
+ */
+.underline {
+  text-decoration: underline;
+}
