@@ -1,0 +1,62 @@
+---
+import { Image } from 'astro:assets';
+
+import Layout from '../layouts/AZ.astro';
+import NavBar from '../components/Navbar.astro';
+import TitleBar from '../components/TitleBar.astro'
+
+
+import heroImg from '../assets/timelab-hero1.jpg';
+import serconImg from '../assets/sercon.jpg';
+
+const pageTitle = "Loans"; 
+
+---
+
+<Layout title={pageTitle}>
+<TitleBar/>
+<img src={heroImg.src} class="img-fluid" alt="Responsive image">    
+<div class="container">
+<NavBar/>
+
+    
+    <div class="row">
+
+                <h2>Using the collection</h2>
+
+    </div>
+
+    <div class="row">
+
+<p>We actively encourage both UA and external researchers to utilize the LTRR's world-class repository of tree-ring specimens.  </p>
+
+<p>Specimens at the LTRR presently fall into two categories: active research collections (administered by the project principal investigator - PI); and archived collections (administered by the Curator of Collections).</p>
+
+<p>The first step in requesting a loan is to identify the specimens you need. The LTRR does not yet have a publicly accessible search portal so prior to most loan requests you will need to submit a specimen and records search request.  Please email the curator with as much detail as you can. Once you have the list of required specimens the procedure is as follows:</p>
+
+
+<h4>Loan Procedure</h4>
+<ol style="margin-left : 40px">
+    <li>The applicant downloads and completes the loan request form and sends either to the Curator (for archived collections) or to the Curator and the PI (for active research collections).</li>
+
+<li>The proposal will be reviewed with potential exchange to clarify the request. There will be additional scrutiny on requests including destructive analysis.</li>
+
+<li>The applicant will be notified and sent an invoice outlining the costs of preparing the loan including sub-sampling, cataloging any uncataloged specimens, and shipping.</li>
+
+<li>On receipt of payment the specimens will be prepared and dispatched.</li>
+
+<li>The applicant will perform great science!</li>
+
+<li>The applicant will return specimens within the agreed time frame (normally 6 months unless agreed otherwise).</li>
+
+<li>The applicant will acknowledge the LTRR in all publications resulting from the use of the specimens. The applicant will forward copies of all these publications to the LTRR Curator.</li>
+</ol>
+
+<p>Please complete this form and email to the curator to formally request the loan of specimens from the LTRR Collection.</p>
+
+
+    </div>
+</div>
+
+
+</Layout>

@@ -1,0 +1,42 @@
+---
+import Layout from '../layouts/AZ.astro';
+import NavBar from '../components/Navbar.astro';
+import TitleBar from '../components/TitleBar.astro'
+
+import heroImg from '../assets/timelab-hero1.jpg';
+
+const pageTitle = "Contact"; 
+
+---
+
+<Layout title={pageTitle}>
+<TitleBar/>
+
+<img src={heroImg.src} class="img-fluid" alt="Responsive image">    
+
+<div class="container">
+<NavBar/>
+
+
+<h3>Contact</h3>
+<div class="row">
+  <div class="col col-md-6 col-sm-12">
+  <p>If you have any questions about the services we provide please don't hesitate to contact us.</p>
+<p>TIME Lab<br />
+1215 E Lowell St<br />
+University of Arizona<br />
+Tucson, AZ 85721-0045, USA</p>
+<p>Email:<a href="mailto:timelab@ltrr.arizona.edu">timelab@ltrr.arizona.edu</a><br />
+Phone: +1 520-621-1608<br />
+</div>
+<div class="col col-md-6 col-sm-12">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24214.199706826956!2d-110.96299128632734!3d32.223186007870204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86d663821fcef211%3A0x44e01baf3500d6b0!2sLaboratory%20of%20Tree-Ring%20Research!5e0!3m2!1sen!2sus!4v1757352775676!5m2!1sen!2sus" 
+width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</div>
+</div>
+
+</div>
+</div>
+</Layout>

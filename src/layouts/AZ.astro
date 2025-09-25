@@ -1,0 +1,47 @@
+---
+import Footer from '../components/Footer.astro';
+
+import { Image } from 'astro:assets';
+import logoImg from "../assets/ua_wordmark_line_logo_white_rgb.min.svg";
+
+interface Props {
+      title: string;
+    }
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/ico" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+ 		<link href="https://cdn.digital.arizona.edu/lib/arizona-bootstrap/5.0.0-alpha2/css/arizona-bootstrap.min.css" rel="stylesheet" integrity="V5_AUDIT_css_hash" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+          @import url('bootstrap-icons/font/bootstrap-icons.css');
+    </style>
+  </head>
+  <body>
+
+    <header class="bg-red arizona-header" id="header_arizona">
+      <div class="container">
+        <div class="row">
+          <a class="arizona-logo" href="https://www.arizona.edu" title="The University of Arizona homepage">
+            <Image class="arizona-line-logo" alt="The University of Arizona Wordmark Line Logo White" src={logoImg} fetchpriority="high" loading="eager">
+          </a>
+        </div>
+      </div>
+    </header>
+    <script src="https://cdn.digital.arizona.edu/lib/arizona-bootstrap/5.0.0-alpha2/js/arizona-bootstrap.bundle.min.js" integrity="V5_AUDIT_js_bundle_hash" crossorigin="anonymous"></script>
+
+    <slot />
+    <Footer/>  
+  
+  </body>
+</html>

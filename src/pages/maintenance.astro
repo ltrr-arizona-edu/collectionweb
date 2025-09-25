@@ -1,0 +1,65 @@
+---
+import Layout from '../layouts/AZ.astro';
+import heroImg from '../assets/timelab-hero1.jpg';
+
+
+const pageTitle = "Website Maintenance"; 
+
+---
+<style>
+/* Overlay fills container but anchors to top */
+.overlay-wrapper {
+  position: absolute;
+  inset: 0;                 /* stretch over image */
+  display: flex;
+  justify-content: center;  /* horizontally centered */
+  align-items: flex-start;  /* stick to top */
+  padding: 110px 1rem 1rem;  /* spacing from top and sides */
+}
+
+/* Panel styles */
+.overlay-panel {
+  background: rgba(255, 255, 255, 0.65);
+  color: black;
+  width: 100%;
+  max-width: 800px;
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+  backdrop-filter: saturate(120%) blur(2px);
+}
+
+.overlay-panel p {
+  margin: 0;
+  font-size: clamp(.95rem, 1.9vw, 1.125rem);
+  line-height: 1.55;
+}
+
+/* On small screens: avoid vertical centering if text is tall */
+@media (max-width: 600px) {
+  .overlay-wrapper {
+    align-items: flex-start;    /* top aligned */
+    padding-top: 1.5rem;        /* spacing from top */
+  }
+}
+
+      </style>
+
+
+<Layout title={pageTitle}>
+<div class="background-wrapper" id="background-wrapper-live-demo">
+    <div class="overlay-wrapper">
+    <div class="overlay-panel">
+        <h1>WEBSITE MAINTENANCE</h1>
+        <p>The Collections databse is currently offline for maintenance. Please check back later.
+        </p>
+        <p>
+        <a class="btn btn-red" style="margin : 20px" href="../index.html" role="button">Proceed to the TIME Lab website</a>
+        </p>
+    </div>
+    </div>
+  <img src={heroImg.src} class="img-fluid" alt="Responsive image">    
+</div>
+
+</Layout>

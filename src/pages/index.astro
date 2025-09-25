@@ -1,0 +1,181 @@
+---
+import { Image } from 'astro:assets';
+import Layout from '../layouts/AZ.astro';
+import heroImg from '../assets/timelab-hero1.jpg';
+import NavBar from '../components/Navbar.astro';
+
+
+const pageTitle = "LTRR Collection"; 
+const heroVideoID = "aphZwTluMe8";
+
+---
+
+<style>
+    @media (max-width: 768px) {
+      .hero {
+        width : 100%
+        height : 400px;
+        object-fit: cover;       /* Zoom + crop */
+        object-position: center; /* Change to top / left / right as needed */
+      }
+    }
+</style>
+<Layout title={pageTitle}>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TIME Lab Video</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      /* hero wrapper escapes bootstrap gutters so the video is full-bleed */
+      .hero-iframe-cover {
+        position: relative;
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        height: 66vh; /* adjust if you want shorter hero */
+
+        overflow: hidden;
+
+        display: flex;      /* flex ensures .hero-content is vertically centered */
+        align-items: center;
+
+      }
+
+      /* absolute iframe sits behind content and is cropped as needed */
+      .hero-iframe {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 0;
+        z-index: 1;
+        pointer-events: none; /* prevent clicks on video */
+      }
+
+      /* cover logic for iframe (fill & crop) */
+      @media (min-aspect-ratio: 16/9) {
+        .hero-iframe { width: 100vw; height: calc(100vw * 9 / 16); }
+      }
+      @media (max-aspect-ratio: 16/9) {
+        .hero-iframe { height: 100vh; width: calc(100vh * 16 / 9); }
+      }
+
+      /* bring the container content above the iframe */
+      .hero-content {
+        position: relative;
+        z-index: 2;
+        pointer-events: auto;
+      }
+
+      /* overlay panel style */
+      .overlay-panel {
+        color: #fff;
+        height : 100%;
+        padding: 1.25rem 1.5rem;
+        border-radius: 12px;
+        max-width: 700px;
+
+       
+      }
+
+.hero-haze {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2; /* above video, below text */
+  pointer-events: none;
+
+  /* Frosted glass effect */
+  background-color: rgba(7, 44, 92, 0.74);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    /* vertically center text inside panel */
+
+  /* Gradual fade on the right */
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-image: linear-gradient(to right, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+}
+
+.hero-iframe {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+.hero-iframe.loaded {
+  opacity: 1;
+}
+
+    </style>
+
+  </head>
+  <body>
+   <section class="hero-iframe-cover" 
+   style="background: url('https://img.youtube.com/vi/aphZwTluMe8/maxresdefault.jpg') center center / cover no-repeat;">
+
+  <!-- video iframe -->
+  <iframe
+    class="hero-iframe"
+        src="https://www.youtube.com/embed/aphZwTluMe8?autoplay=1&mute=1&loop=1&playlist=aphZwTluMe8&controls=0&showinfo=0&modestbranding=1" 
+    title="Hero video"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+
+  <script>
+    const iframe = document.querySelector('.hero-iframe');
+    iframe.addEventListener('load', () => {
+        iframe.classList.add('loaded');
+    });
+    </script>
+
+  <!-- gradient haze overlay -->
+  <div class="hero-haze"></div>
+
+  <!-- overlay text -->
+  <div class="hero-content container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="overlay-panel">
+        <h1 style="color : white; font-weight : 900; font-size : 70px; margin : 0px">LTRR Collection</h1>
+        <a href="https://collectionsdb.ltrr.arizona.edu" type="button" class="btn btn-lg btn-red" style="margin : 10px; font-weight : 900">Search</a>
+        <a href="/loans" type="button" class="btn btn-lg btn-outline-light" style="color : white; font-weight : 900">Loans</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- MAIN CONTENT -->
+  <div class="container">
+     <NavBar/>
+</div>   
+<div class="background-wrapper" id="background-wrapper-live-demo">
+  
+<div class="container">
+
+    
+    <div class="row">
+      <div class="col-12 bg-triangles-top-right">
+      
+         <p>The LTRR is home to the world's largest and most diverse collection of tree-ring specimens.  Housed in the dedicated Tree-Ring Archive Building adjoining the Bryant Bannister Tree-Ring Building, the repository has two environmentally controlled floors containing 4.4km of shelving as well as a separate curation work area.  The repository is the only federally recognized facility for the storage of tree-ring specimens, and contains many samples from federally protected lands. </p>
+<p>Prior to moving in to our current facilities in 2012, the LTRR specimens were housed in various 'temporary' facilities - primarily under the UA Stadium.  The task of cataloging and moving specimens collected over the past 80 years is well under way but a great deal of work is still to be done.  Funding from the <a href="https://www.doi.gov/">Department of the Interior</a>, <a href="https://www.nps.gov">National Park Service</a>, <a href="https://www.nsf.gov">National Science Foundation</a>, <a href="https://www.imls.gov/">Institute of Museum and Library Services</a>, <a href="https://www.neh.gov">National Endowment for the Humanities</a> is continuing to support this enormous task. </p>
+
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

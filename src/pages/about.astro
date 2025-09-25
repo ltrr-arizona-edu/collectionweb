@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/AZ.astro';
+import NavBar from '../components/Navbar.astro';
+import TitleBar from '../components/TitleBar.astro'
+
+import heroImg from '../assets/timelab-hero1.jpg';
+
+const pageTitle = "About"; 
+
+---
+
+<Layout title={pageTitle}>
+<TitleBar/>
+<img src={heroImg.src} class="img-fluid" alt="Responsive image">    
+
+<div class="container">
+<NavBar/>
+
+<h3>About</h3>
+<p>The Time Lab is a next generation facility which builds on a long tradition of international leadership in
+     both radiocarbon and tree-ring science at the University of Arizona. Housed in the <a href="https://ltrr.arizona.edu">Laboratory of Tree-Ring 
+     Research</a>, where the scientific methods of dendrochronology were pioneered in the early 1900's, the TIME Lab 
+     is equipped with a MICADAS radiocarbon dating system and laser ablation stable isotope facility. 
+     Building on strong foundations of the UArizona Radiocarbon laboratory, established in 1954 and home to the 
+     journal '<a href="https://www.cambridge.org/core/journals/radiocarbon"><i>Radiocarbon</i></a>' since 1989, 
+     new investment by both the <a href="https://www.nsf.gov">National Science Foundation</a> and the University 
+     of Arizona has combined expertise in the two most accurate and widely used dating techniques for the last 
+     40,000 years into a single state of the art facility. We aim to push the boundaries of what 
+     can be achieved through high-resolution AMS and isotopic measurements of tree-rings;  synchronizing multi-proxy, 
+     global scale chronologies; reconstructing past climate, solar forcing and shifts in Earth's systems. 
+     The lab will link our past, present and future through carbon cycle studies and provide precise dates for a wide 
+     range of carbon based samples.
+
+</p>
+</div>
+
+</Layout>

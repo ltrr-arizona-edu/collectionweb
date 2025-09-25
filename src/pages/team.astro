@@ -1,0 +1,64 @@
+---
+import { Image } from 'astro:assets';
+
+import Layout from '../layouts/AZ.astro';
+import NavBar from '../components/Navbar.astro';
+import TitleBar from '../components/TitleBar.astro'
+import PersonnelCard from '../components/PersonnelCard.astro';
+
+import heroImg from '../assets/timelab-hero1.jpg';
+import harrelImg from '../assets/harrel.jpg';
+import brewerImg from '../assets/brewer.jpg';
+import vanoverImg from '../assets/vanover.jpg';
+
+
+
+const pageTitle = "Team"; 
+
+---
+
+<Layout title={pageTitle}>
+<TitleBar/>
+<div class="container">
+    <NavBar/>
+</div>
+
+<div class="container">
+    <h2>Personnel</h2>
+
+    <div class="container text-center">
+        <div class="row align-items-center">
+
+
+
+        <PersonnelCard 
+            fullname="Peter Brewer" 
+            position="Curator" 
+            linkHref="https://ltrr.arizona.edu/person/curator" 
+            imgSrc={brewerImg}
+            aboveFold={true}/>
+
+        <PersonnelCard 
+            fullname="Shannon Harrel" 
+            position="Assistant Curator" 
+            linkHref="https://ltrr.arizona.edu/person/shannon-harrel" 
+            imgSrc={harrelImg}
+            aboveFold={true}/>
+
+        <PersonnelCard 
+            fullname="Gabriella Vanover" 
+            position="Research Technician" 
+            linkHref="https://ltrr.arizona.edu/person/gabriella-vanover-0" 
+            imgSrc={vanoverImg}/>
+
+        </div>
+    </div>
+
+
+</div>
+
+    
+
+
+</div>
+</Layout>

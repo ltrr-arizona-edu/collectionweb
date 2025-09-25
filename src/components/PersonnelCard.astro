@@ -1,0 +1,18 @@
+---
+import { Image } from 'astro:assets';
+
+const { fullname, position, linkHref, imgSrc, aboveFold} = Astro.props;
+
+---
+<div class="col">
+    <div class="card" style="width: 18rem;">
+        <Image src={imgSrc} class="card-img-top" alt={fullname} width={286} height={202} fit="cover" style="aspect-ratio : 758 / 537" loading={aboveFold ? "eager" : "lazy"} />
+        <div class="card-body">
+            <h5 class="card-title">{fullname}</h5>
+            <p class="card-text">
+                <b>{position}</b>
+            </p>
+            <a href={linkHref} class="btn btn-red">More Information</a>
+        </div>
+    </div>
+</div>
