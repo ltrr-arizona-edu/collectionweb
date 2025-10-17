@@ -57,3 +57,7 @@ tags
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,vim,visualstudiocode
 node_modules
+dist/about/index.html
+dist/contact/index.html
+dist/personnel/index.html
+dist/services/index.html
