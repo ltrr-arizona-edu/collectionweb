@@ -1,0 +1,33 @@
+---
+import { Image } from 'astro:assets';
+
+import Layout from '../layouts/AZ.astro';
+import NavBar from '../components/Navbar.astro';
+import TitleBar from '../components/TitleBar.astro'
+
+
+import heroImg from '../assets/basement-hero.jpg';
+import serconImg from '../assets/sercon.jpg';
+
+const pageTitle = "Loans"; 
+
+---
+
+<Layout title={pageTitle}>
+<TitleBar/>
+<img src={heroImg.src} class="img-fluid" alt="Responsive image">    
+<div class="container">
+<NavBar/>
+
+    
+    <div class="row">
+
+                <h2>Photos</h2>
+
+    </div>
+
+    <div class="row">
+        <p>Coming soon!</p>
+
+    </div>
+</Layout>

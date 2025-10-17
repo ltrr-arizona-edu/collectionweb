@@ -1,0 +1,52 @@
+---
+import { Image } from 'astro:assets';
+
+import Layout from '../layouts/AZ.astro';
+import NavBar from '../components/Navbar.astro';
+import TitleBar from '../components/TitleBar.astro'
+
+
+import heroImg from '../assets/basement-hero.jpg';
+import serconImg from '../assets/sercon.jpg';
+
+const pageTitle = "Loans"; 
+
+---
+
+<Layout title={pageTitle}>
+<TitleBar/>
+<img src={heroImg.src} class="img-fluid" alt="Responsive image">    
+<div class="container">
+<NavBar/>
+
+    
+    <div class="row">
+
+                <h2>Archiving</h2>
+
+    </div>
+
+    <div class="row">
+
+        <p>The primary purpose of the LTRR repository is to safely store and make available for reuse, specimens used in 
+            research within the laboratory.  LTRR researchers are encouraged to make contact with the Curator early and 
+            often in their  research projects to ensure specimens are collected, labelled and cataloged according to established 
+            LTRR curation procedures. </p>
+
+        <p>The LTRR accepts external accession requests on a case-by-case basis, but specimens must be of significant scientific 
+            value and compliment the existing LTRR collection. An accession fee is charged on the basis of volume and state of
+             the collection.  Well curated specimens meeting the physical and digital collections standards will be charged at 
+             a much lower rate than specimens that require a lot of work.  In circumstances where a collection is orphaned or is
+              in imminent danger of being orphaned the curation team will work with you to help secure the funding necessary to 
+              save the collection.  This can take time though, so please contact the LTRR Curator as far in advance as possible 
+              especially if the orphaning of a collection is foreseeable (e.g. retirement). </p>
+
+        <p>We will also consider accessioning new research collections, especially when specimens are collected from federally
+             administered lands.  As the only federally recognized tree-ring repository in the United States, you are likely 
+             to be directed to us for the long term storage and preservation of your specimens.  We expect to be consulted in 
+             the very early stages of your project planning to ensure that all collections protocols meet our requirements and 
+             that the necessary funds have been secured to safeguard the specimens in perpetuity.
+        </p>
+    </div>
+
+</Layout>

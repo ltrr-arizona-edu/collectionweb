@@ -1,0 +1,93 @@
+---
+import { Image } from 'astro:assets';
+
+import Layout from '../layouts/AZ.astro';
+import NavBar from '../components/Navbar.astro';
+import TitleBar from '../components/TitleBar.astro'
+
+
+import heroImg from '../assets/basement-hero.jpg';
+import serconImg from '../assets/sercon.jpg';
+
+const pageTitle = "Loans"; 
+
+---
+
+<Layout title={pageTitle}>
+<TitleBar/>
+<img src={heroImg.src} class="img-fluid" alt="Responsive image">    
+<div class="container">
+<NavBar/>
+
+    
+    <div class="row">
+
+                <h2>Projects</h2>
+
+    </div>
+
+    <div class="row">
+
+        <p>Below are some of the current and recent projects the LTRR Curation team have been working on:</p>
+
+        <hr>
+        
+        <h5>Rehousing and safeguarding archaeological wood specimens critical to the cultural heritage of the American Southwest</h5>
+        <p>National Endowment for the Humanities: $250,764<br/>
+        1st October 2022 - 30th September 2024</p>
+        <p>This project will ensure the long-term sustainability of irreplaceable and culturally important wood and charcoal collections at the University of Arizona’s Laboratory of Tree-Ring Research. Significant progress has been made towards securing these specimens (from the ancestral sites of the native peoples of the South Western United States and beyond), following transfer from highly unsuitable conditions to a state of the art archive facility. Yet they remain at risk in old, over-packed and overweight boxes, with little or no padding leading to damage from crushing or any movement. Rehousing has been identified as the final, essential step to maintain these collections for future generations. This process builds in contingency planning and mitigation for increasing changes in humidity fluctuations that may not be sufficiently countered by the current HVAC system for even longer term sustainability and accessibility of the collections.</p>
+        
+        <hr>
+
+        <h5>Conserve and Catalog Iconic Tree-Ring Specimens</h5>
+        <p>National Park Service: $100,180<br/>
+        1st August 2020 - 13th December 2023</p>
+        <p>During this project approximately 210 linear feet (LF) of primarily <em>Sequoiadendron giganteum</em> (giant sequoia) will be cataloged, and specimens labeled. This will include approximately 50 very large specimens still housed in the LTRR's old West Stadium storage facility, which will be transferred to the new LTRR Repository. Work to rehouse existing collections will also be undertaken. An estimated 172 boxes of specimens currently stored in over-full deteriorated boxes will be transferred to new boxes. New internal trays will be used to protect collections that are currently being crushed. The new boxes will also be packed to ensure safe weight limits are not exceeded. A program of conservation survey and treatment will also be undertaken. An estimated 2000 of the oldest specimens from Mesa Verde National Park will be surveyed and documented for condition and treatment recommendations will be made. Conservation treatments will be performed on 10 specimens identified as most-at-risk from Aztec Ruins National Monument. Finally, the LTRR Emergency Plan will refined and updated to address museum storage evacuation. Specimens will be evaluated in consultation with LTRR dendroarchaeologists for prioritization for evacuation in case of emergency evacuation during fire or flood. METTAG labels will be applied to boxes to identify these evacuation priorities.</p>
+        
+        <hr>
+
+        <h5>CSBR: Natural History Collections: Safeguarding the world's largest dendrochronological collection</h5>
+        <p>National Science Foundation: $485,160<br/>
+        1st August 2018 - 31st July 2022</p>
+        <p>This project will safeguard the approximately 60,000 specimens that constitute the "modern studies" portion of the tree-ring collection, making them physically available, secure and electronically accessible via web resources. The specimens will be cataloged using the open source Tellervo software, which conforms to the Tree Ring Data Standard (TRiDaS) developed by the international research community. Tellervo will be further developed to include new curation interfaces to improve the efficiency of the cataloging workflow. To enable data to be provided to established biodiversity portals like iDigBio (iDigBio.org) and the Global Biodiversity Information Facility (GBIF.org), fields will be mapped from TRiDaS to the DarwinCore standard and delivered using GBIF's Integrated Publishing Toolkit (IPT). A dedicated web portal will also be developed for Tellervo enabling users to query the rich information associated with dendrochronological data beyond the core specimen collection information. Such information combined with full accessibility will enhance next generation studies in tree-ring science. The new curation, DarwinCore data export, and web portal tools developed during this project will be made available to numerous laboratories already using Tellervo, facilitating international adoption of a standardized procedure for collection, data and specimen storage for tree-ring research.</p>
+        
+        <hr>
+
+        <h5>Service First: Increasing accountability of and public access to bureaus museum tree-ring specimens</h5>
+        <p>Department of  the Interior: $409,634<br/>
+        6th April 2018 - 30th September 2022</p>
+        <p>The objectives of this project are to utilize developed protocols and templates, updated as necessary, to inventory bureau collections at LTRR, and enter information on an estimated 71,000 archeological and natural history specimens into a web-accessible catalog linked to centralized scientific data repositories and catalog the specimens into ICMS. Protocols for identifying and processing specimens will be evaluated jointly and refined continuously to improve efficiency.</p>
+        
+        <hr>
+
+        <h5>NEH CARES: Maintaining museum staff during the pandemic to safeguard archaeological specimens</h5>
+        <p>National Endowment for the Humanities: $71,699<br/>
+        15th June 2020 - 15th June 2021</p>
+        <p>This project aims to safeguard two important parts of the LTRR Collection and simultaneously retain staff impacted by the COVID-19 pandemic. Funds are being used to support cataloging and rehousing of portions of the LTRR SW Dendroarchaeology (Douglass) Collection, and to develop wet-wood conservation protocols for the Aegean Dendroarchaeology Collection.</p>
+
+        <hr>
+        
+        <h5>Collections Stewardship: Rehousing, inventorying, and providing access to dendrochronological specimens in high risk storage</h5>
+        <p>Institute of Museum and Library Services: $149,846<br/>
+        1st October 2016 - 30th September 2019</p>
+        <p>This project seeks to resolve the stewardship and access issues related to the portion of the collection that remains at highest risk of being forfeited as viable research and outreach materials. This subset of the collection is currently housed in an off-campus storage unit that lacks even basic environmental (e.g., temperature) and safety (e.g., fire suppression) controls. It is the last of the LTRR materials stored off campus and under such conditions.</p>
+        <p> </p>
+        
+        <h5>Discover and make dendrochronology specimens accessible: Hawley-Bell Collection</h5>
+        <p>National Park Service: $15,000<br/>
+        1st September 2016 - 30th September 2019</p>
+        <p>This project will continue the collaborative effort between the Laboratory of Tree‐ring Research and the National Park Service to integrate and catalog the archeological NPS specimens housed at the LTRR, but will focus primarily on identifying and integrating NPS dendro specimens from non‐Intermountain regions’ parks and monuments into the online searchable catalog of specimens maintained by LTRR and increase accountability for, and accessibility to, information about the specimens. Beyond the process of discovery for four ancillary sub‐collections at the LTRR, this project will focus on the cataloging of the Hawley‐Bell Collection, which is believed to contain NPS specimens from perhaps as many as 18 states, inside and outside the Desert Southwest. Some of these specimens may complement, and others may duplicate, collecting events that have already been identified in previous projects. Other collecting events and specimens may be entirely unique. Initially, a process of discovery will need to occur whereby documentation about the specimens and collecting events will need to be  examined in order to understand the scope and breadth of the collections. Then, efforts will be focused on NPS‐owned specimens from collecting events from within NPS unit lands. The Hawley‐Bell collection will be the primary focus of the cataloging effort, with an estimated 2,000‐5,000 specimens projected. Specimens from other collections will be undertaken as time permits.</p>
+        <p> </p>
+        
+        <h5>Make dendrochronology specimens web accessible</h5>
+        <p>National Park Service: $383,916<br/>
+        1st May 2014 - 30th April 2019</p>
+        <p>This project will continue efforts to integrate NPS archeological tree-ring specimens stored at the Laboratory of Tree-Ring Research (LTRR), University of Arizona, into a complete, on-line searchable catalog to increase accountability and public and researcher access. Students, in cooperation with staff of the Intermountain Region Museum Services Program, will identify legacy collecting events from NPS lands, and enter information on an estimated 62,000 archeological dendrochronological specimens into an existing data exchange format known as the Tree-Ring Standard for integration into a web-accessible catalog linked to the scientific data repositories International Tree-Ring Data Bank and/or the International Multi-Proxy Paleofire Database. The specimens also will be accessioned, cataloged, labeled, and the data entered into the Interior Collections Management System (ICMS) according to NPS Museum Handbook requirements to meet or exceed accountability standards and for submission to the NPS National Catalog.</p>
+        </div>
+
+
+    </div>
+
+
+
+</Layout>
