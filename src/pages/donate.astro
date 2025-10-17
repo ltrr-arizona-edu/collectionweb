@@ -8,6 +8,8 @@ import TitleBar from '../components/TitleBar.astro'
 
 import heroImg from '../assets/seki-hero.jpg';
 import serconImg from '../assets/sercon.jpg';
+import rexImg from '../assets/rex.jpg';
+
 
 const pageTitle = "Loans"; 
 
@@ -16,41 +18,54 @@ const pageTitle = "Loans";
 <Layout title={pageTitle}>
 <TitleBar/>
 <img src={heroImg.src} class="img-fluid" alt="Responsive image">    
+
 <div class="container">
-<NavBar/>
+    <NavBar/>
 
     
     <div class="row">
 
-                <h2>Donate</h2>
+        <div class="col col-8">
+            <h2>The Rex Adams Endowment for the Tree Ring Archive</h2>
 
+            <p>This endowment plays a vital role in ensuring unique and irreplaceable tree-ring specimens are 
+                protected and available for the next generations both regionally, nationally, and internationally. 
+                Endowment funds will initially be used to help support the Tree-Ring Archive’s ongoing program of 
+                experiential learning for undergraduate students who gain hands-on training and experience in museum 
+                standard archival and curation practices, while assisting with the ongoing survey, cataloging, rehousing,
+                preservation, and access to wood specimens already housed within the repository.</p>
+
+                <p>
+                    <a href="https://give.uafoundation.org/page.aspx?pid=948&id=1d09800a-a889-4aa1-b562-1c577da0ce71" 
+                    type="button" class="btn btn-red btn-lg" style="margin : 10px; font-weight : 900">Contribute to the endowment</a>
+                </p>
+            <p>This endowment is named in honor of Rex Adams, long-time friend and colleague at the Laboratory of 
+                Tree-Ring Research. Although Rex is now enjoying his well-earned retirement, he continues to provide 
+                support to archiving and outreach activities at the lab.  Rex has been an integral part to decades of 
+                field sampling, laboratory procedures, scientific analyses and publication over three decades. 
+                his career, he played increasingly vital and visible roles in laboratory instruction and training 
+                others in dendrochronology, leading outreach initiatives and organizing the large permanent archive 
+                collection of dendrochronological wood samples from across the globe. In 2016, Rex was awarded the 
+                Richard L. Holmes Award for Outstanding Service to Dendrochronology for his decades of training and 
+                educating countless individuals from international visiting scholars to local school children.  </p>
+
+            <p>The endowment was made possible by the generous donation of an anonymous scholar who recognized the 
+                importance of this archive. Support of this endowment also assists with the ongoing survey, 
+                cataloging, rehousing, preservation, and access to wood specimens already housed within the repository.</p>
+        </div>
+
+        <div class="col col-4">
+        
+            <Image src={rexImg} class="img-fluid" alt="Rex Adams" fit="cover" loading="eager"/>
+
+
+        </div>
     </div>
+</div>
 
-    <div class="row">
-
-        <p>This endowment plays a vital role in ensuring unique and irreplaceable tree-ring specimens are 
-            protected and available for the next generations both regionally, nationally, and internationally. 
-            Endowment funds will initially be used to help support the Tree-Ring Archive’s ongoing program of 
-            experiential learning for undergraduate students who gain hands-on training and experience in museum 
-            standard archival and curation practices, while assisting with the ongoing survey, cataloging, rehousing,
-            preservation, and access to wood specimens already housed within the repository.</p>
-
-            <p><a href="https://give.uafoundation.org/page.aspx?pid=948&id=1d09800a-a889-4aa1-b562-1c577da0ce71" type="button" class="btn btn-red" style="margin : 10px; font-weight : 900">Contribute to the endowment</a></p>
-        <p>This endowment is named in honor of Rex Adams, long-time friend and colleague at the Laboratory of 
-            Tree-Ring Research. Although Rex is now enjoying his well-earned retirement, he continues to provide 
-            support to archiving and outreach activities at the lab.  Rex has been an integral part to decades of 
-            field sampling, laboratory procedures, scientific analyses and publication over three decades. 
-            his career, he played increasingly vital and visible roles in laboratory instruction and training 
-            others in dendrochronology, leading outreach initiatives and organizing the large permanent archive 
-            collection of dendrochronological wood samples from across the globe. In 2016, Rex was awarded the 
-            Richard L. Holmes Award for Outstanding Service to Dendrochronology for his decades of training and 
-            educating countless individuals from international visiting scholars to local school children.  </p>
-
-        <p>The endowment was made possible by the generous donation of an anonymous scholar who recognized the 
-            importance of this archive. Support of this endowment also assists with the ongoing survey, 
-            cataloging, rehousing, preservation, and access to wood specimens already housed within the repository.</p>
-
-        <h5>Donors</h5>
+<div class="container-fluid bg-midnight text-white py-4">
+  <div class="container"> 
+        <h4 class="text-white">Donors</h4>
         <p>With many thanks to our donors including: Soo-Hyun Baek; Julio L. Betancourt; Teresa A. Betancourt; 
             Robert L. Bingham; Theresa R. Bingham; Robin M. Blackwood; Stephen E. Wilson; Kevin E. Bonine; 
             Angela Urbon Bonine; Teresita David; Jon L. David; M. J. Demetras; John Umbrei; Linda S. Dobbyn; 
@@ -61,10 +76,11 @@ const pageTitle = "Loans";
             Cecelia A. Perez; Jose C. Perez; Stephanie N. Schock; Randall S. Smith; Gudrun M. Godare; Charles M. Snell; 
             Scott St George; Lisa L. Taiz; Cheryl K. Tomoeda; Leeann J. Wieser; Paul W. Wieser; Erika K. Wise; 
             Prof. Connie A. Woodhouse; Yunbei Xu; as well as numerous anonymous donors. We would also like to thank 
-            the Sarah B. Smallhouse Advised Fund held at the Community Foundation for Southern Arizona.</p>
+            the Sarah B. Smallhouse Advised Fund held at the Community Foundation for Southern Arizona.
+        </p>
 
 
     </div>
-
+</div>
 
 </Layout>
