@@ -29,15 +29,89 @@ const { title } = Astro.props;
   </head>
   <body>
 
-    <header class="bg-red arizona-header" id="header_arizona">
-      <div class="container">
-        <div class="row">
-          <a class="arizona-logo" href="https://www.arizona.edu" title="The University of Arizona homepage">
+
+<header class="bg-red arizona-header py-2" id="header_arizona">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center">
+      <!-- 🔹 UA Logo (left) -->
+      <a class="arizona-logo" href="https://www.arizona.edu" title="The University of Arizona homepage">
             <Image class="arizona-line-logo" alt="The University of Arizona Wordmark Line Logo White" src={logoImg} fetchpriority="high" loading="eager">
-          </a>
-        </div>
-      </div>
-    </header>
+
+      </a>
+
+      <!-- 🔹 Navbar toggler (right, visible on mobile) -->
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarMain"
+        aria-controls="navbarMain"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- 🔹 Collapsible nav menu (appears below bar when toggled) -->
+  <div class="collapse navbar-collapse bg-white" id="navbarMain">
+    <div class="container">
+      <ul class="navbar-nav ms-auto py-2">
+        <li class="nav-item"><a href="/" class="nav-link text-dark">Home</a></li>
+        <li class="nav-item"><a href="../team" class="nav-link text-dark">Team members</a></li>
+        <li class="nav-item"><a href="../loans" class="nav-link text-dark active">Loans</a></li>
+        <li class="nav-item"><a href="../archiving" class="nav-link text-dark">Archiving</a></li>
+        <li class="nav-item"><a href="../projects" class="nav-link text-dark">Projects</a></li>
+        <li class="nav-item"><a href="../photos" class="nav-link text-dark">Photos</a></li>
+        <li class="nav-item"><a href="../donate" class="nav-link text-dark">Donate</a></li>
+      </ul>
+    </div>
+  </div>
+
+<style>
+/* Force white hamburger icon on Arizona red header */
+.navbar-toggler {
+  border: 1px solid rgba(255, 255, 255, 0.6) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: none !important;
+  position: relative;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after,
+.navbar-toggler-icon div {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  border-radius: 1px;
+  position: absolute;
+  left: 0;
+}
+
+.navbar-toggler-icon div {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar-toggler-icon::before {
+  top: 0;
+}
+
+.navbar-toggler-icon::after {
+  bottom: 0;
+}
+</style>
+
+</header>
+
+    
     <script src="https://cdn.digital.arizona.edu/lib/arizona-bootstrap/5.0.0-alpha2/js/arizona-bootstrap.bundle.min.js" integrity="V5_AUDIT_js_bundle_hash" crossorigin="anonymous"></script>
 
     <slot />

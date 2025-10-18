@@ -23,23 +23,23 @@ const pageTitle = "Loans";
     <NavBar/>
 
     
-    <div class="row">
+    <div class="row align-items-start">
 
-        <div class="col col-8">
-            <h2>The Rex Adams Endowment for the Tree Ring Archive</h2>
+    <!-- 🧾 Text column -->
+    <div class="col-12 col-md-8 order-2 order-md-1">
+        <h2>The Rex Adams Endowment for the Tree Ring Archive</h2>
 
-            <p>This endowment plays a vital role in ensuring unique and irreplaceable tree-ring specimens are 
-                protected and available for the next generations both regionally, nationally, and internationally. 
-                Endowment funds will initially be used to help support the Tree-Ring Archive’s ongoing program of 
-                experiential learning for undergraduate students who gain hands-on training and experience in museum 
-                standard archival and curation practices, while assisting with the ongoing survey, cataloging, rehousing,
-                preservation, and access to wood specimens already housed within the repository.</p>
+        <p>This endowment plays a vital role in ensuring unique and irreplaceable tree-ring specimens are 
+        protected and available for the next generations both regionally, nationally, and internationally...</p>
 
-                <p>
-                    <a href="https://give.uafoundation.org/page.aspx?pid=948&id=1d09800a-a889-4aa1-b562-1c577da0ce71" 
-                    type="button" class="btn btn-red btn-lg" style="margin : 10px; font-weight : 900">Contribute to the endowment</a>
-                </p>
-            <p>This endowment is named in honor of Rex Adams, long-time friend and colleague at the Laboratory of 
+        <p>
+        <a href="https://give.uafoundation.org/page.aspx?pid=948&id=1d09800a-a889-4aa1-b562-1c577da0ce71"
+            type="button" class="btn btn-red btn-lg" style="margin : 10px; font-weight : 900">
+            Contribute to the endowment
+        </a>
+        </p>
+
+        <p>This endowment is named in honor of Rex Adams, long-time friend and colleague at the Laboratory of 
                 Tree-Ring Research. Although Rex is now enjoying his well-earned retirement, he continues to provide 
                 support to archiving and outreach activities at the lab.  Rex has been an integral part to decades of 
                 field sampling, laboratory procedures, scientific analyses and publication over three decades. 
@@ -52,16 +52,17 @@ const pageTitle = "Loans";
             <p>The endowment was made possible by the generous donation of an anonymous scholar who recognized the 
                 importance of this archive. Support of this endowment also assists with the ongoing survey, 
                 cataloging, rehousing, preservation, and access to wood specimens already housed within the repository.</p>
-        </div>
-
-        <div class="col col-4">
-        
-            <Image src={rexImg} class="img-fluid" alt="Rex Adams" fit="cover" loading="eager"/>
-
-
-        </div>
     </div>
+
+    <!-- 🖼️ Image column -->
+    <div class="col-12 col-md-4 order-1 order-md-2">
+        <Image src={rexImg} class="img-fluid fullwidth-mobile" alt="Rex Adams" fit="cover" loading="eager" />
+    </div>
+
+    </div>
+
 </div>
+
 
 <div class="container-fluid bg-midnight text-white py-4">
   <div class="container"> 
