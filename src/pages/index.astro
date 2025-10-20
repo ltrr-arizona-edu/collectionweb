@@ -133,12 +133,16 @@ const heroVideoID = "aphZwTluMe8";
     allowfullscreen
   ></iframe>
 
-
   <script>
     const iframe = document.querySelector('.hero-iframe');
-    iframe.addEventListener('load', () => {
-        iframe.classList.add('loaded');
-    });
+    if (iframe!=null){
+      iframe.addEventListener('load', () => {
+          iframe.classList.add('loaded');
+      });
+    }
+    else{
+        console.log("Unable to find Hero IFrame");
+    }
     </script>
 
   <!-- gradient haze overlay -->
