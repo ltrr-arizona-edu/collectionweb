@@ -16,6 +16,8 @@ import harrisonImg from '../assets/people/harrison.jpg';
 import johnstonImg from '../assets/people/johnston.jpg';
 import rinaImg from '../assets/people/rina.jpg';
 
+import anonImg from '../assets/people/anon.png';
+
 
 const pageTitle = "Team"; 
 
@@ -39,10 +41,12 @@ const pageTitle = "Team";
 
 
 
+        <!-- CURATION -->
+
         <PersonnelCard 
             fullname="Peter Brewer" 
             position="Curator" 
-            linkHref="https://ltrr.arizona.edu/person/curator" 
+            linkHref="https://ltrr.arizona.edu/curator" 
             imgSrc={brewerImg}
             aboveFold={true}/>
 
@@ -55,9 +59,23 @@ const pageTitle = "Team";
 
         <PersonnelCard 
             fullname="Gabriella Vanover" 
-            position="Research Technician" 
+            position="Curatorial Assistant" 
             linkHref="https://ltrr.arizona.edu/person/gabriella-vanover-0" 
             imgSrc={vanoverImg}/>
+
+        <PersonnelCard 
+            fullname="Stephanie Egurolla" 
+            position="Curatorial Assistant" 
+            linkHref="https://ltrr.arizona.edu/person/stephanie-egurrola" 
+            imgSrc={egurollaImg}/>  
+
+        <PersonnelCard 
+            fullname="Austin Doten" 
+            position="Student Curatorial Assistant" 
+            linkHref="" 
+            imgSrc={anonImg}/>  
+
+        <!-- CONSERVATION -->
 
         <PersonnelCard 
             fullname="Alyssa Rina" 
@@ -72,10 +90,12 @@ const pageTitle = "Team";
             imgSrc={harrisonImg}/>            
 
         <PersonnelCard 
-            fullname="Lauren Conway" 
+            fullname="Lauren Conway-Hoffman" 
             position="Conservator" 
             linkHref="https://ltrr.arizona.edu/person/lauren-conway" 
             imgSrc={conwayImg}/>    
+
+        <!-- ARCHIVES -->
 
         <PersonnelCard 
             fullname="Jessica Johnston" 
@@ -83,11 +103,7 @@ const pageTitle = "Team";
             linkHref="https://ltrr.arizona.edu/person/jessica-johnston" 
             imgSrc={johnstonImg}/>  
 
-        <PersonnelCard 
-            fullname="Stephanie Egurolla" 
-            position="Curatorial Assistant" 
-            linkHref="https://ltrr.arizona.edu/person/stephanie-egurrola" 
-            imgSrc={egurollaImg}/>  
+
 
 
         </div>
