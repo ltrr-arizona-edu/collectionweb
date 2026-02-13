@@ -12,7 +12,7 @@ const { fullname, position, linkHref, imgSrc, aboveFold} = Astro.props;
             <p class="card-text">
                 <b>{position}</b>
             </p>
-            <a href={linkHref} class="btn btn-red">More Information</a>
+            {linkHref && <a href={linkHref} class="btn btn-red">More Information</a>}
         </div>
     </div>
 </div>
