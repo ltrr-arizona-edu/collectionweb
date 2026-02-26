@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets';
 
 const { fullname, position, linkHref, imgSrc, aboveFold} = Astro.props;
+const isDisabled = !linkHref || linkHref === "";
 
 ---
 <div class="col">
@@ -12,7 +13,16 @@ const { fullname, position, linkHref, imgSrc, aboveFold} = Astro.props;
             <p class="card-text">
                 <b>{position}</b>
             </p>
-            {linkHref && <a href={linkHref} class="btn btn-red">More Information</a>}
+
+            <a
+            href={isDisabled ? undefined : linkHref}
+            aria-disabled={isDisabled}
+            class:list={[
+                "btn btn-red",
+                { "btn btn-disabled": isDisabled }
+            ]}
+            >More Information
+            </a>
         </div>
     </div>
 </div>
