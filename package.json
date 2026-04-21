@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "astro": "^5.13.5",
-    "bootstrap": "^5.0.0-alpha2",
+    "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1"
   }
 }
