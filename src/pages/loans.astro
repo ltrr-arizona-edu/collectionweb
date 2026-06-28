@@ -16,17 +16,20 @@ const pageTitle = "Loans";
 <Layout title={pageTitle}>
 <TitleBar/>
 <img src={heroImg.src} class="img-fluid" alt="Responsive image">    
-<div class="container">
+<div class="container loan-page">
 <NavBar/>
 
     
     <div class="row">
+        <div class="col-12">
 
                 <h2>Using the collection</h2>
+        </div>
 
     </div>
 
     <div class="row">
+        <div class="col-12">
 
 <p>We actively encourage UA and external researchers as well as museums to utilize the LTRR's world-class repository of tree-ring specimens.  </p>
 
@@ -40,7 +43,7 @@ const pageTitle = "Loans";
 
 
 <h4>Loan Procedure</h4>
-<ol style="margin-left : 40px">
+<ol class="loan-procedure">
     <li>The applicant downloads and completes the loan request form and sends either to the Curator (for archived collections) or to the Curator and the PI (for active research collections).</li>
 
 <li>The proposal will be reviewed with potential exchange to clarify the request. There will be additional scrutiny on requests including destructive analysis.</li>
@@ -62,9 +65,30 @@ const pageTitle = "Loans";
     <a href="/sites/default/files/data/LoanRequestForm-v20181019.pdf">Download the loan request form</a>
 </p>
 
+        </div>
 
     </div>
 </div>
 
+<style>
+  .loan-page {
+    overflow-wrap: anywhere;
+  }
+
+  .loan-procedure {
+    margin-left: 0;
+    padding-left: 1.5rem;
+  }
+
+  .loan-procedure li {
+    margin-bottom: 0.75rem;
+  }
+
+  @media (max-width: 575.98px) {
+    .loan-procedure {
+      padding-left: 1.25rem;
+    }
+  }
+</style>
 
 </Layout>
